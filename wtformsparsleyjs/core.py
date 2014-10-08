@@ -66,7 +66,7 @@ def parsley_kwargs(field, kwargs):
         if not 'parsley-error-message' in new_kwargs \
                 and not isinstance(vali, Optional) \
                 and vali.message is not None:
-            _message_kwargs(new_kwargs, message=vali.message)
+            _message_kwargs(new_kwargs, message=field.gettext(vali.message))
 
     return new_kwargs
 
