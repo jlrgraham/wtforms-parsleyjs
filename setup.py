@@ -14,12 +14,14 @@ This library will generate these attributes from your WTForms validators.
 For more information consult the README.md in the Github repository at
 https://github.com/johannes-gehrs/wtforms-parsleyjs
 
+
+
 """
 from setuptools import setup
 
 setup(
-    name='WTForms-ParsleyJS',
-    version='0.1.4',
+    name='WTForms-ParsleyJS2',
+    version='0.0.1',
     url='https://github.com/johannes-gehrs/wtforms-parsleyjs',
     license='MIT',
     author='Johannes Gehrs',
@@ -31,7 +33,7 @@ setup(
     packages=['wtformsparsleyjs', 'wtformsparsleyjs.sample'],
     platforms='any',
     install_requires=[
-        'WTForms>=1.0.5'
+        'WTForms>=2.0.1'
     ],
     classifiers=[
         'Development Status :: 4 - Beta',
@@ -40,7 +42,7 @@ setup(
         'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',
         'Programming Language :: Python',
-        'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 3.4',
         'Topic :: Internet :: WWW/HTTP :: Dynamic Content',
         'Topic :: Software Development :: Libraries :: Python Modules'
     ]
